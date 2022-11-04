@@ -5,64 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FullStackos</title>
+    <link rel="stylesheet" href="./ColorFull.css">
+
 </head>
 
+</style>
 <body>
-
+<section class="encabezado">
         <header>
-            <h1>FullStackos</h1>
-            <h3>Deliciosamente Programados</h3>
+            <h1>FullStackos<bl></bl></h1>
+            <p class="slogan">"Deliciosamente Programados"</p>
         </header>
-    <img src="./Fullstaco.png" alt="Logo FullStackos" />
+    </section>
 
-    <section>
-    <h2>Menú</h2>
-    <h3>Tacos Maiz</h3>
-    <p>Incluye nopales y papas fritas</p>
-    
-<ul><b>
+<section class="apartadogrande">
+    <h2 class="titulomenu">Menú</h2>
+<div class="tmaiz">
+    <h3 class="platillo">Tacos en tortilla de maiz o harina</h3>
+    <p class="nopapas">Incluye nopales y papas fritas</p>
+
+<ul class="carne">
     <li>Bisteck.......... $25</li>
     <li>Suadero.......... $25</li>
     <li>Pastor.......... $25</li>
-    <li>Chuleta.......... $25</li>
-    <li>Longaniza.......... $25</li>
-    <li>Campechanos.......... $25</li>
-</ul></b>
-<p>Con queso +$5</p>
-<hr>
-<h3>Tacos Harina</h3>
-<p>Incluye nopales y papas fritas</p>
-<ul><b>
-    <li>Bisteck.......... $30</li>
-    <li>Suadero.......... $30</li>
-    <li>Pastor.......... $30</li>
-    
-</ul></b>
-<p>Con queso +$5</p>
-<hr>
-<h3>Especiales</h3>
+</ul>
+<p class="queso">Con queso +$5</p>
+</div>
+
+<div class="especiales"> 
+<h3 class="platillo">Especiales</h3>
 <dl>
-    <dt><b>Alambres.......... $80</b></dt>
-    <dd>(Cualquier carne del menu, con una seleccion de verduras cocinadas a la parrila)</dd>
-    <dt><b>Volcanes......... $50</b></dt>
-    <dd>(Cualquier carne del menu, montada sobre una tortilla de maiz tostada lentamente)</dd>
-    <dt><b>Tortas......... $50</b></dt>
-    <dd>(Cualquier carne del menu, mas frijoles refritos y mayonesa, dentro de una telera tortera)</dd>
+    <dt class="carne">Alambres.......... $80</dt>
+    <dd class="ingredientes">(Cualquier carne del menu, con una seleccion de verduras cocinadas a la parrila)</dd>
+    <dt class="carne">Volcanes......... $50</dt>
+    <dd class="ingredientes">(Cualquier carne del menu, montada sobre una tortilla de maiz tostada lentamente)</dd>
+    <dt class="carne">Tortas......... $50</dt>
+    <dd class="ingredientes">(Cualquier carne del menu, mas frijoles refritos y mayonesa, dentro de una telera tortera)</dd>
 </dl>
-<p>Con queso +$5</p>
-<h4>Arma tu combo del menu Especiales, mas bebida por .......... $15</h4>
+<p class="queso">Agrega una bebida de tu eleccion por $15 mas</p>
+</div>
+
 <hr>
-<h3>Bebidas</h3>
+
+<div class="bebidas">
+<h3 class="platillo">Bebidas</h3>
 <dl>
-    <dt><b>Refrescos de 600ml .......... $15</b></dt>
-    <dd>(Cocacola, Sprite, Fanta)</dd>
-    <dt><b>Aguas frescas 500ml .......... $10</b></dt>
-    <dd>(Horchata, Jamaica)</dd>
+    <dt class="carne">Refrescos de 600ml .......... $15</dt>
+    <dd class="ingredientes">(Cocacola, Sprite, Fanta)</dd>
+    <dt class="carne">Aguas frescas 500ml .......... $10</dt>
+    <dd class="ingredientes">(Horchata, Jamaica)</dd>
 </dl>
+</div>
 </section>
+
 <hr>
-<h2>Ubicacion</h2>
-<p>Estamos ubocados en la consola de desarrollador de su preferencia y tambien puede encintrarnos en las sucursales:</p>
+
+<section class="ubicacion">
+<h2 class="titulomenu">Ubicacion</h2>
+<p>Estamos ubicados en la consola de desarrollador de su preferencia y tambien puede encintrarnos en las sucursales:</p>
 <table>
     <tr>
         <th>Sucursales</th>
@@ -84,91 +84,92 @@
         <td>De Martes a Domingo de 17:00 a  03:00 Hrs.</td>
     </tr>  
 </table>
+</section>
 <br>
 
 <hr>
 
-<h2>Pedidos</h2>
-<h3>Haz tu pedido aqui</h3>
+<section class="pedidos">
+<h2 class="titulomenu">Pedidos</h2>
+<h3 class="platillo">Haz tu pedido aqui</h3>
 
-<form action="">
-<label for="Nombre">Nombre:</label><br>
-<input type="text"id="Nombre"name="Nombre"placeholder="¿Cual es tu nombre?"><br>
-<label for="tel">Teléfono</label><br>
-<input type="tel" id="Telefono" name="Telefono"placeholder="Maximo 10 numeros" maxlength="10"><br>
-<label for="Direccion">Direccion de entrega</label><br>
-<input type="text"id="Direccion"name="Direccion"placeholder="¿A donde te llevamos tus tacos?"><br>
+<form class="formulario" action="">
+<label class="tcampo" for="Nombre">Nombre:</label><br>
+<input class="campo" type="text"id="Nombre"name="Nombre"placeholder="¿Cual es tu nombre?"><br>
+<label class="tcampo" for="tel">Teléfono</label><br>
+<input class="campo" type="tel" id="Telefono" name="Telefono"placeholder="Maximo 10 numeros" maxlength="10"><br>
+<label class="tcampo" for="Direccion">Direccion de entrega</label><br>
+<input class="campo" type="text"id="Direccion"name="Direccion"placeholder="¿A donde te llevamos tus tacos?"><br>
 
-    <p>¿De que sucursal quieres tus tacos?</p>
-    <select>
+    <p class="tcampo">¿De que sucursal quieres tus tacos?</p>
+    <select class="campo">
         <option value="Centro">Centro</option>
         <option value="Sur">Sur</option>
         <option value="Norte">Norte</option>
     </select>
 
-    <p>¿Que tacos quieres?</p>
+    <p class="tcampo">¿Que tacos quieres?</p>
     <input type="checkbox" id="Maiz con Bisteck" name="Maiz con Bisteck" value="Maiz con Bisteck">
     <label for="Maiz con Bisteck"> Maiz con Bisteck</label>
-    <input type="number"id="MBisteckNumber"name="MBisteckNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="MBisteckNumber"name="MBisteckNumber"placeholder="¿Cuantos?">
     <br>
     <input type="checkbox" id="Harina con Bisteck" name="Harina con Bisteck" value="Harina con Bisteck">
     <label for="Harina con Bisteck">Harina con Bisteck</label>
-    <input type="number"id="HBisteckNumber"name="HBisteckNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="HBisteckNumber"name="HBisteckNumber"placeholder="¿Cuantos?">
     <br>
     <input type="checkbox" id="Maiz con Suadero" name="Maiz con Suadero" value="Maiz con Suadero">
     <label for="Maiz con Suadero">Maiz con Suadero</label>
-    <input type="number"id="MSuaderoNumber"name="MSuaderoNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="MSuaderoNumber"name="MSuaderoNumber"placeholder="¿Cuantos?">
     <br>
     <input type="checkbox" id="Harina con Suadero" name="Harina con Suadero" value="Harina con Suadero">
     <label for="Harina con Suadero">Harina con Suadero</label>
-    <input type="number"id="HSuaderoNumber"name="HSuaderoNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="HSuaderoNumber"name="HSuaderoNumber"placeholder="¿Cuantos?">
     <br>
     <input type="checkbox" id="Maiz con Pastor" name="Maiz con Pastor" value="Maiz con Pastor">
     <label for="Maiz con Pastor">Maiz con Pastor</label>
-    <input type="number"id="MPastorNumber"name="MPastorNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="MPastorNumber"name="MPastorNumber"placeholder="¿Cuantos?">
     <br>
     <input type="checkbox" id="Harina con Pastor" name="Harina con Pastor" value="Harina con Pastor">
     <label for="Harina con Pastor">Harina con Pastor</label>
-    <input type="number"id="HPastorNumber"name="HPastorNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="HPastorNumber"name="HPastorNumber"placeholder="¿Cuantos?">
     <br>
 
-    <p>¿Quieres especiales?</p>
+    <p class="tcampo">¿Quieres especiales?</p>
     <input type="checkbox" id="Alambres" name="Alambres" value="Alambres">
     <label for="Alambres">Alambres</label>
-    <input type="number"id="AlambresNumber"name="AlambresNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="AlambresNumber"name="AlambresNumber"placeholder="¿Cuantos?">
     <br>
     <input type="checkbox" id="Volcanes" name="Volcanes" value="Volcanes">
     <label for="Volcanes">Volcanes</label>
-    <input type="number"id="VolcanesNumber"name="VolcanesNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="VolcanesNumber"name="VolcanesNumber"placeholder="¿Cuantos?">
     <br>
     <input type="checkbox" id="Tortas" name="Tortas" value="Tortas">
     <label for="Tortas">Tortas</label>
-    <input type="number"id="TortasNumber"name="TortasNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="TortasNumber"name="TortasNumber"placeholder="¿Cuantos?">
     <br>
 
-    <p>¿Que bebidas te enviamos?</p>
+    <p class="tcampo">¿Que bebidas te enviamos?</p>
     <label for="Refrescos">Refrescos</label>
     <select id="RefrescosSabor" name="RefrescosSabor">
         <option value="Coca-Cola">Coca-Cola</option>
         <option value="Sprite">Sprite</option>
         <option value="Fanta">Fanta</option>
     </select>
-    <input type="number"id="RefrescosNumber"name="RefrescosNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="RefrescosNumber"name="RefrescosNumber"placeholder="¿Cuantos?">
     <br>
     <label for="Aguas">Aguas</label>
     <select id="AguasSabor" name="AguasSabor">
         <option value="Jamaica">Jamaica</option>
         <option value="Horchata">Horchata</option>
     </select>
-    <input type="number"id="AguasNumber"name="AguasNumber"placeholder="¿Cuantos?">
+    <input class="campo" type="number"id="AguasNumber"name="AguasNumber"placeholder="¿Cuantos?">
     <br>
     <br>
-    <button type="submit">Enviar orden</button>
+    <button class="enviar" type="submit">Enviar orden</button>
 </form>
+</section>
 <br>
 
-<hr>
-    
 </body>
 
 

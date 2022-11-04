@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(255, 255, 255, 0.136);
+    
+}
+.encabezado{
+    background-image: url(./FullstacoSinFondo.png);
+    background-repeat: no-repeat;
+    background-position:bottom left;
+    background-color: rgba(191, 191, 191, 0.226);
+    background-size:contain;
+}
+h1{
+    color: brown;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: right;
+}
+.slogan{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-size:25px;
+    font-weight: bold;
+    text-decoration:overline;
+}
+.apartadogrande{
+    background-image: url(./fondodospng.png);
+    background-repeat: repeat-x;
+    background-position: left;
+    color: brown;
+    font-size: 30px;
+    background-color: rgb(254, 254, 254);
+}
+.titulomenu{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+.platillo{
+    color: rgb(81, 81, 229);
+    font-size: 30px;
+    text-align: center;
+    background-color:bisque
+}
+
+.carne{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ingredientes{
+    color: rgb(55, 55, 55);
+    font-size: 20px;
+    font-style: italic;
+}
+.queso{
+    color: brown;
+    font-size: 20px;
+    font-style: italic;
+}
+.nopapas{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pedidos{
+    background-size: contain;
+    background-color: rgba(0, 255, 174, 0.158);
+}
+.tcampo{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(25, 25, 113);
+}
+.campo{
+    font-size:small;
+    border-color:brown;
+    border-radius: 5px;
+    border-style:solid;
+
+}
+.enviar{
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 11, 101);
+    border-bottom: 60px;
+    border-color: rgb(197, 144, 44);
+}
